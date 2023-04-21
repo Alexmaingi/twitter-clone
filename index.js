@@ -92,8 +92,7 @@ async function fetchData() {
           <p><ion-icon name="pricetags-outline"></ion-icon> Pinned Tweet</p>
           <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
         </div>
-  
-          
+
         </div>
       </div>`;
       document.querySelector(".container").innerHTML = resultData;
