@@ -618,14 +618,14 @@ hr {
   }
   .content {
     color: white;
-    width: 80%;
+    width: 100%;
     height: 110vh;
   }
   .header {
     display: flex;
     align-items: center;
     padding: 0.2rem;
-    margin-left: 1rem;
+    margin-left: 10px;
   }
   .header ion-icon {
     font-size: 2rem;
@@ -637,19 +637,16 @@ hr {
     color: #565a5e;
     font-size: 1rem;
   }
-  .icons {
-    max-width: 20rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .icons img {
+    width: 25rem;
   }
   .profile-section1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: -6.4rem;
-    margin-right: 2rem;
-    margin-left: 2rem;
+    margin-top: -2rem;
+    margin-right: 10px;
+    margin-left: 10px;
   }
   .profile-pic {
     background-color: #fff;
@@ -671,13 +668,13 @@ hr {
   .image-section h1 {
     padding: 0rem 1rem;
     margin-top: 1rem;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     font-weight: bold;
   }
   .image-section p {
     padding: 0rem 1rem;
     color: #565a5e;
-    font-size: 1.4rem;
+    font-size: 0.5rem;
   }
   .contact-section {
     display: flex;
@@ -707,7 +704,7 @@ hr {
     margin-top: 1rem;
   }
   .bio p {
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 300;
   }
   .bio p span {
@@ -751,10 +748,10 @@ hr {
   .follow h2 {
     display: flex;
     align-items: center;
-    margin-right: 1.5rem;
+    margin-right: 1rem;
   }
   .follow h2 span {
-    font-size: 1rem;
+    font-size: 0.5rem;
     font-weight: 300;
     color: #565a5e;
     margin-left: 5px;
@@ -764,9 +761,9 @@ hr {
     align-items: center;
   }
   .followers p {
-    margin-left: 1.2rem;
+    margin-left: 30px;
     color: #565a5e;
-    font-size: 1.2rem;
+    font-size: 0.5rem;
   }
   .follower-pics {
     display: flex;
@@ -819,8 +816,8 @@ hr {
     border-radius: 50%;
   }
   .link {
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 1rem;
   }
   .links {
@@ -848,17 +845,17 @@ hr {
     margin-left: 3rem;
     color: #565a5e;
     justify-content: space-between;
-    width: 33rem;
+    width: 23rem;
   }
   .pinned ion-icon {
     font-size: 2rem;
   }
   .pinned p ion-icon {
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-right: 1rem;
   }
   .pinned p {
-    font-size: 1.2rem;
+    font-size: 0.5rem;
     font-weight: 800;
     display: flex;
     align-items: center;
@@ -886,18 +883,18 @@ hr {
   .text-tweet span {
     color: #565a5e;
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
   .text-tweet p {
-    font-size: 1rem;
+    font-size: 0.5rem;
     margin-top: 5px;
     margin-left: 5px;
-    width: 30rem;
+    width: 17rem;
   }
   .tweetslistcontainer {
     margin-top: -5rem;
     width: 100%;
-    height: 310vh;
+    height: 420vh;
     background-color: black;
     display: flex;
     flex-direction: column;
